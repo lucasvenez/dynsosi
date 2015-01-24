@@ -1,0 +1,9 @@
+.search {
+	
+	background-image: url( "../images/search.png" );
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+		
+}

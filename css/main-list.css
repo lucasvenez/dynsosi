@@ -1,0 +1,71 @@
+.list {
+	
+	margin-top: 0px;
+	
+	border : 3px solid white;
+	
+	border-spacing: 0;
+	
+	border-collapse: separate;
+	
+/* 	border-radius: 15px; */
+/* 	-moz-border-radius: 15px; */
+/* 	-webkit-border-radius: 15px; */
+	
+	width: 100%;
+}
+
+.list thead {
+	
+	background-color: #00adef;
+	color: white;
+	font-weight: bold;
+	
+	border-collapse: separate;
+}
+
+.list thead tr {
+	border-collapse: separate;
+}
+
+/* .list thead tr th:first-child { */
+/* 	border-top-left-radius: 12px; */
+/* 	-moz-border-top-left-radius: 12px; */
+/* 	-webkit-border-top-left-radius: 12px; */
+/* } */
+
+.list thead tr th {
+	padding: 5px;
+	border-collapse: separate;
+}
+
+/* .list thead tr th:last-child { */
+/* 	border-top-right-radius: 12px; */
+/* 	-moz-border-top-right-radius: 12px; */
+/* 	-webkit-border-top-right-radius: 12px; */
+/* } */
+
+/* .list tbody tr:last-child td:first-child { */
+/* 	border-bottom-left-radius: 12px; */
+/* 	-moz-border-bottom-left-radius: 12px; */
+/* 	-webkit-border-bottom-left-radius: 12px; */
+/* } */
+
+/* .list tbody tr:last-child td:last-child { */
+/* 	border-bottom-right-radius: 12px; */
+/* 	-moz-border-bottom-right-radius: 12px; */
+/* 	-webkit-border-bottom-right-radius: 12px; */
+/* } */
+
+.list tbody tr {
+	
+}
+
+.list tbody tr td {
+	text-align: center;
+	padding: 5px;
+}
+
+.list tbody tr:hover td {
+	
+}

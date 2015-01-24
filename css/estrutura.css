@@ -1,0 +1,10 @@
+body {
+	
+	background-image: url( ../../imagens/fundo_pagina_interna.gif);
+	background-repeat: no-repeat;
+	padding-right: 10px;
+	
+	margin: 0px;
+	border: 0px;
+	width: 100%;
+}

@@ -1,0 +1,95 @@
+.center {
+ 
+	text-align: center;
+}
+
+.center * {
+	
+	text-align: left; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+form .title {
+	
+	font-size: 12px;
+	font-weight: bold;
+	color: #003399;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+fieldset {
+	
+	margin: 0px;
+	padding: 0px;	
+}
+
+fieldset legend {
+
+	float: left;
+	background-color: white;
+	color: #14aaea;
+	font-size: 80%;
+	font-weight: bold;
+	margin: 0px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border-bottom: 1px dashed black;
+	width: 100%;
+}
+
+fieldset label {
+	
+	margin-bottom: 
+}
+
+fieldset input {
+	
+	height: 16px !important;
+	line-height: 16px !important;
+}
+
+fieldset label,
+fieldset input {
+
+	color: black;
+	font-size: 80%;
+}
+
+fieldset div label, 
+fieldset div input {
+
+	display: block;
+	margin-left: 0px;
+}
+
+fieldset div div a {
+	
+	float: left;
+	margin-left: 5px;
+}
+
+fieldset * input,
+fieldset * selec {
+	
+	border: 1px solid #A7C5CF;	
+}
+
+fieldset input[type='radio'] {
+
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+fieldset input[id='uf'] {
+
+	width: 25px;
+}
+
+fieldset input[id='cep'] {
+
+	width: 125px;
+	float: left;
+}

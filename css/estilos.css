@@ -1,0 +1,152 @@
+#security-level {
+
+	width: 153px;
+	height: 20px;
+	border: 1px;
+	margin-left: 3px;
+	padding-top: 5px;	
+}
+
+#security-level p {
+	
+	position: absolute;
+	display: none;
+	text-align: justify;
+	border: 2px dashed gold;
+	background-color: #FFFFDD;
+	padding: 4px;
+}
+
+#security-level:hover p {
+	
+	display: block;
+	left:auto;
+	top: auto;
+	width: 150px;
+	height: auto;
+}
+
+span.style1 {
+	
+	font-size: 12px !important;
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-weight: bold;
+	color: black; 	
+}
+
+span.style9 {
+	
+	font-size: 10px !important;
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	color: black; 
+}
+
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.style2 {
+	font-size: 11px;
+}
+
+.style3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+}
+
+.style4 { 
+	color: #000000;
+}
+
+.style5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	font-weight: bold; 
+}
+
+.style6 {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+}
+
+.style7 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #14AAEA;
+	font-weight: bold;
+}
+
+.style8 {
+	color: #2880A6
+}
+
+.style9 {
+	color: #000000;
+}
+
+.style14 {
+	color: #5991C2;
+	font-family: Arial;
+	font-weight: bold;
+}
+.style16 {
+	font-size: 12px;
+	font-family: Arial;
+	color: #5991C2;
+}
+.style17 {	
+    color: #2880A6;
+	font-weight: bold;
+}
+.style18 {font-family: Arial}
+
+.style19 {color: #2880A6}
+
+.style20 {
+	
+	font-size: 12px;
+	font-style: italic;
+}
+
+.style22 {
+	
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.style24 {font-size: large; font-weight: bold; color: #008000; }
+
+.style30 {font-size: large; font-weight: bold; color: #FF0000; }
+
+.style32 {font-size: large; font-weight: bold; color: #FFA500; }
+
+.style34 {font-family: Arial; font-size: xx-small; font-weight: bold; color: #FF0000; }
+
+.style40 {font-size: x-small}
+
+.style44 {font-family: Arial; font-size: xx-small; font-weight: bold; color: #0000FF; }
+
+.style46 {font-size: large; font-weight: bold; color: #0000FF; }
+
+.style47 {font-family: Arial; font-size: xx-small; font-weight: bold; color: #008000; }
+
+.style48 {font-family: Arial; font-size: xx-small; font-weight: bold; color: #FFA500; }
+
+.Linksssi {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.LinksssiClean {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+}
+.desenvTXT {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}

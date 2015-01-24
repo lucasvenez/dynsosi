@@ -1,0 +1,81 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+	border: 0px;
+}
+
+.caixa {
+	background-color: #8399B1;
+	border: 1px solid #C3C3C3;
+	font-family: Arial;
+	text-transform: none; 
+	font-weight: bold;
+	font-size: 12px;
+	color: #EDF6FF;
+	width: 90px;
+}
+
+.caixa1 {
+	background-color: #8399B1;
+	border: 1px solid #C3C3C3;
+	font-family: Arial;
+	text-transform: none; 
+	font-weight: bold;
+	font-size: 12px;
+	color: #EDF6FF;
+}
+
+.caixa2 {
+	background-color: #8399B1;
+	border: 1px solid #9AD6FF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-transform: none;
+	font-weight: normal;
+	font-size: 12px;
+	color: #000000;
+	width: auto;
+}
+
+.caixa3 {
+	background-color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-transform: none;
+	font-weight: normal;
+	font-size: 12px;
+	color: #000000;
+	width: auto;
+}
+
+.caixaCopy {
+	background-color: #F5F5F5;
+	border: 1px solid #C3C3C3;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-transform: none;
+	font-weight: normal;
+	font-size: 12px;
+	color: #000071;
+	width: auto;
+}
+
+.caixaCopy2 {
+	background-color: #F5F5F5;
+	border: 1px solid #818181;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-transform: none;
+	font-weight: normal;
+	font-size: 12px;
+	color: #000071;
+	width: auto;
+}
+
+a:link    { text-decoration: none; color: #2880A6; }
+a:visited {	text-decoration: none; color: #2880A6; }
+a:hover   {	text-decoration: underline;	color: #2880A6; }
+a:active  {	text-decoration: none; color: #2880A6; }
+
+.borda  { border: 1px solid #9B9B9B; }
+.borda2 { border: 1px solid #000000; }

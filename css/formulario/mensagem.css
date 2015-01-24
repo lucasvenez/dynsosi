@@ -1,0 +1,28 @@
+input + .security-level {
+
+	border: 2px dashed gold;
+	background-color: #ffffdd;	
+}
+
+input + .security-level h1 {
+	
+	font-size: 80%;
+	margin: 5px;
+}
+
+input + .security-level p {
+	
+	font-size: 70%;
+	margin: 5px;
+}
+
+input + .security-level {
+
+	display: none;	
+}
+
+input:focus + .security-level {
+
+	position: absolute;
+	display: block;	
+}

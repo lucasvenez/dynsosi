@@ -1,0 +1,57 @@
+form {
+
+	width: 100%;
+	margin-left: 10px; 	
+}
+
+fieldset {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	margin-top: 10px;
+	padding: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 99%;
+	border: none;
+}
+
+fieldset div {
+
+	display: block;
+	
+	width: 500px;
+	
+	margin: 2px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	
+	padding-left: 15px;
+	
+	float: left;	
+}
+
+fieldset div div {
+	
+	width: 190px;	
+	margin: 5px;
+	margin-left: 0px;
+	margin-right: 0px;	
+}
+
+.inline *,
+fieldset div div {
+	
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 15px;
+	vertical-align: middle;
+}
+
+.inline * {
+	
+	width: auto;	
+}

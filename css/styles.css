@@ -1,0 +1,8 @@
+@import url("./estrutura.css");
+@import url("./estilos.css" ); /*remover esse arquivo*/
+@import url("./menu.css");
+@import url("./formulario.css");
+@import url("./mensagem.css");
+@import url("./botoes.css");
+
+@import url("./themes/base/ui.all.css");

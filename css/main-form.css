@@ -1,0 +1,200 @@
+body * {
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 12px;
+}
+
+#content {
+    width: 480px !important;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form {
+	background-image: url(../images/unesp.gif);
+	background-size: 31%;
+	background-repeat: no-repeat;
+	background-position: 95% 10px;
+	background-color: #28405b;
+	
+	padding: 10px 10px 10px 10px;
+	
+	border: solid 0px;
+	
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	
+	width: auto !important;
+	height: auto !important;
+}
+
+.item {
+	display: block;
+	margin: 5px;
+}
+
+#form h1 {
+	font-size: 13px;
+	color: white;
+	margin-bottom: 15px !important;
+}
+
+.item label {
+	color: white;
+	font-weight: bold;
+	width: 95px !important;
+	height: 10px !important;
+	vertical-align: middle;
+	display: block;
+	float: left;
+	margin: 8px;
+	text-align: right;
+}
+
+.item span {
+	display: inline-block;
+	color: white;
+	padding: 8px;
+	vertical-align: middle;
+}
+
+.item input[type=text], 
+.item input[type=password], 
+.item select, 
+.item textarea {
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	
+	background: white;
+	
+	width: 66.89%;
+	height: 25px;
+	
+	border: 2px solid transparent;
+	
+	margin: 4px 8px 8px 8px;
+	
+	padding-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+	font-size: 10pt;
+}
+
+.item select {
+	
+	-webkit-appearance: none;
+	
+	background-image: url("../images/select-arrow.png");
+	background-repeat: no-repeat;
+	background-position: right 5px center;
+	
+	width: 70%;
+	height: 29px;
+
+	/* Mozilla Firefox Hack for hidding arrow */
+	-moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
+.item textarea {
+	height: 100px;
+}
+
+.inline * {
+	display: inline-block !important;
+}
+
+.inline .item label {
+	width: auto !important;
+}
+
+/* 
+ * Item list
+ */
+
+menu li {
+	font-size: 12px;
+	list-style: none;
+	color: white;
+	margin-top: 10px;
+	margin-left: -20px;
+}
+
+menu li a {
+	font-size: 13px;
+	color: white;
+	text-decoration: none;
+}
+
+menu li a:hover {
+	text-decoration: underline;
+}
+
+/* 
+ * Info element 
+ */
+
+.info {
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-top: 2px;
+	cursor: pointer;
+}
+
+.info span {
+	width: 16px;
+	height: 16px;
+	padding: 0px;
+}
+
+.info .info-content {
+	display: none;
+	position: absolute;
+	background-color: #F8E692;
+	border: 2px solid black;
+	margin-top: 10px;
+	margin-left: 20px;
+	padding: 2px;
+}
+
+.info:hover .info-content {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	display: block;
+}
+
+.info:hover .info-content .item {
+	float: none;
+	display: block;
+}
+
+.info:hover .info-content .item label {
+	color: black;
+	float: none;
+	display: inline-block;
+}
+
+.info:hover .info-content .item span {
+	margin-top: 4px;
+	color: #915608;
+	display: inline-block;
+	float: none;
+	width: 150px;
+}
+
+/*
+ * Invalid value
+ */
+.invalid-value {
+	background-color:#fef1ec !important;
+	border: 2px dashed #cd0a0a !important;
+	color: #cd0a0a !important;
+}

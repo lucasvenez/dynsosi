@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!DOCTYPE unesp [ 
+	<!ELEMENT unesp (nome_campus+, servidor_db+, mascara_cpf+, base_equip+, base_ip+)>
+	<!ELEMENT nome_campus (#PCDATA)>
+	<!ELEMENT servidor_db (#PCDATA)>
+	<!ELEMENT mascara_cpf (#PCDATA)>
+	<!ELEMENT base_equip (#PCDATA)>
+	<!ELEMENT base_ip (#PCDATA)>
+]>
+
+<unesp>	
+	<!-- Nome do campus-->
+	<nome_campus>Ourinhos</nome_campus> 
+	
+	<!-- Nome/IP do servidor mysql --> 	
+	<servidor_db>200.145.58.4</servidor_db>
+	
+	<!-- 1 habilita / 0 desabilita - mascara no campo cpf -->
+	<mascara_cpf>0</mascara_cpf>
+	
+	<!-- 1 habilita / 0 desabilita - uso do BD levto -->
+	<base_equip>1</base_equip>
+	
+	<!-- 1 habilita / 0 desabilita - uso do BD adaptador --> 			
+	<base_ip>0</base_ip>
+</unesp> 
